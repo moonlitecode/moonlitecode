@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610"
+ role="img" aria-label="Simmy Parmar — B.Tech CSE (AI) Student">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF6FF"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+   <stop offset="0" stop-color="#7C3AED"/><stop offset=".5" stop-color="#2563EB"/><stop offset="1" stop-color="#06B6D4"/>
+  </linearGradient>
+  <radialGradient id="halo">
+   <stop offset="0" stop-color="#2563EB" stop-opacity=".18"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+   <feDropShadow dx="0" dy="10" stdDeviation="18" flood-opacity=".18"/>
+  </filter>
+  <filter id="glow">
+   <feGaussianBlur stdDeviation="3" result="b"/>
+   <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+   <path d="M28 0H0V28" fill="none" stroke="#2563EB" stroke-opacity=".055"/>
+  </pattern>
+  <clipPath id="clip"><rect x="18" y="18" width="1144" height="574" rx="24"/></clipPath>
+ </defs>
+
+ <rect width="1180" height="610" fill="#FFFFFF"/>
+ <g clip-path="url(#clip)">
+   <rect x="18" y="18" width="1144" height="574" rx="24" fill="url(#bg)"/>
+   <rect x="18" y="18" width="1144" height="574" fill="url(#grid)"/>
+   <circle cx="210" cy="250" r="240" fill="url(#halo)">
+     <animate attributeName="r" values="220;255;220" dur="9s" repeatCount="indefinite"/>
+   </circle>
+   <rect x="18" y="18" width="1144" height="574" rx="24" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
+   <rect x="18" y="18" width="1144" height="3" rx="2" fill="url(#accent)" opacity=".8">
+     <animate attributeName="x" values="18;90;18" dur="7s" repeatCount="indefinite"/>
+   </rect>
+
+   <!-- LEFT VISUAL.MAP -->
+   <rect x="44" y="48" width="405" height="514" rx="20" fill="#FFFFFF" fill-opacity=".42" stroke="#CBD5E1" filter="url(#shadow)"/>
+   <rect x="44" y="48" width="405" height="42" rx="20" fill="#FFFFFF" fill-opacity=".72"/>
+   <circle cx="70" cy="69" r="5" fill="#EF4444"/>
+   <circle cx="88" cy="69" r="5" fill="#F59E0B"/>
+   <circle cx="106" cy="69" r="5" fill="#22C55E"/>
+   <text x="130" y="74" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"
+         font-size="12" fill="#475569" letter-spacing="1">VISUAL.MAP</text>
+   <text x="411" y="74" text-anchor="end" font-family="ui-monospace, monospace" font-size="11" fill="#2563EB">ONLINE</text>
+
+   <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15"
+      fill="#2563EB" opacity=".88">
+     <text x="78" y="132">●····●····●●···●····</text><text x="78" y="154">····●···●●····●····●</text><text x="78" y="176">···●·●··●····●··●·●·</text><text x="78" y="198">··●····●····●●···●··</text><text x="78" y="220">·●····●···●●····●···</text><text x="78" y="242">●····●·●··●····●··●·</text><text x="78" y="264">····●····●····●●···●</text><text x="78" y="286">·●·●····●···●●····●·</text><text x="78" y="308">··●····●·●··●····●··</text><text x="78" y="330">·●····●····●····●●··</text><text x="78" y="352">●··●·●····●···●●····</text><text x="78" y="374">●···●····●·●··●····●</text><text x="78" y="396">···●····●····●····●●</text>
+   </g>
+
+   <g font-family="ui-monospace, monospace">
+     <text x="78" y="452" font-size="12" fill="#475569">profile.mode</text>
+     <text x="78" y="476" font-size="18" fill="#0F172A">BUILD • LEARN • SHIP</text>
+     <text x="78" y="510" font-size="12" fill="#06B6D4">~/profile $ whoami</text>
+     <text x="78" y="534" font-size="14" fill="#0F172A">Simmy Parmar</text>
+   </g>
+   <rect x="60" y="104" width="373" height="292" rx="14" fill="none" stroke="#2563EB" stroke-opacity=".08"/>
+
+   <!-- RIGHT SYSTEM.INFO -->
+   <rect x="474" y="48" width="662" height="514" rx="20" fill="#FFFFFF" fill-opacity=".48" stroke="#CBD5E1" filter="url(#shadow)"/>
+   <text x="510" y="83" font-family="ui-monospace, monospace" font-size="12" fill="#2563EB" letter-spacing="2">SYSTEM.INFO</text>
+   <text x="1100" y="83" text-anchor="end" font-family="ui-monospace, monospace" font-size="11" fill="#475569">profile.sh</text>
+   <line x1="510" y1="101" x2="1100" y2="101" stroke="#CBD5E1"/>
+
+   <text x="510" y="137" font-family="ui-monospace, monospace" font-size="12" fill="#06B6D4">user@developer:~$ ./profile.sh</text>
+
+   <text x="510" y="181" font-family="ui-monospace, monospace" font-size="13" fill="#475569">&gt; NAME</text>
+   <text x="665" y="181" font-family="ui-monospace, monospace" font-size="20" font-weight="700" fill="#0F172A">Simmy Parmar</text>
+
+   <text x="510" y="217" font-family="ui-monospace, monospace" font-size="13" fill="#475569">&gt; ROLE</text>
+   <text x="665" y="217" font-family="ui-monospace, monospace" font-size="17" fill="#2563EB">B.Tech CSE (AI) Student</text>
+
+   <text x="510" y="253" font-family="ui-monospace, monospace" font-size="13" fill="#475569">&gt; UNIVERSITY</text>
+   <text x="665" y="253" font-family="ui-monospace, monospace" font-size="15" fill="#0F172A">Mandsaur University</text>
+
+   <text x="510" y="289" font-family="ui-monospace, monospace" font-size="13" fill="#475569">&gt; EDUCATION</text>
+   <text x="665" y="289" font-family="ui-monospace, monospace" font-size="15" fill="#0F172A">B.Tech CSE (AI) · Semester III</text>
+
+   <text x="510" y="325" font-family="ui-monospace, monospace" font-size="13" fill="#475569">&gt; FOCUS</text>
+   <text x="665" y="325" font-family="ui-monospace, monospace" font-size="15" fill="#0F172A">Python · Web Development · AI/ML</text>
+
+   <text x="510" y="361" font-family="ui-monospace, monospace" font-size="13" fill="#475569">&gt; STACK</text>
+   <text x="665" y="361" font-family="ui-monospace, monospace" font-size="14" fill="#0F172A">C · Python · HTML · CSS · JavaScript · SQL</text>
+
+   <text x="510" y="400" font-family="ui-monospace, monospace" font-size="12" fill="#7C3AED" letter-spacing="1">SELECTED.PROJECTS</text>
+
+   
+   <g>
+    <circle cx="524" cy="428" r="4" fill="#2563EB">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="540" y="433" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#0F172A">Glowar</text>
+    <text x="700" y="433" font-family="ui-monospace, monospace" font-size="11" fill="#475569">Virtual try-on browser extension using web-based AR.</text>
+   </g>
+   <g>
+    <circle cx="524" cy="463" r="4" fill="#7C3AED">
+      <animate attributeName="opacity" values=".35;1;.35" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <text x="540" y="468" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#0F172A">PixelVault</text>
+    <text x="700" y="468" font-family="ui-monospace, monospace" font-size="11" fill="#475569">Photography website for discovering and organizing stock photos.</text>
+   </g>
+   <g>
+    <circle cx="524" cy="498" r="4" fill="#06B6D4">
+      <animate attributeName="opacity" values=".35;1;.35" dur="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="540" y="503" font-family="ui-monospace, monospace" font-size="14" font-weight="700" fill="#0F172A">InternEase</text>
+    <text x="700" y="503" font-family="ui-monospace, monospace" font-size="11" fill="#475569">Internship finder platform developed as a PBL project.</text>
+   </g>
+
+   <text x="510" y="548" font-family="ui-monospace, monospace" font-size="11" fill="#475569">STATUS</text>
+   <text x="575" y="548" font-family="ui-monospace, monospace" font-size="11" fill="#06B6D4">LEARNING • BUILDING • EXPLORING</text>
+
+   <!-- subtle scanline -->
+   <rect x="44" y="48" width="1092" height="2" fill="#2563EB" opacity=".05">
+     <animate attributeName="y" values="48;560;48" dur="11s" repeatCount="indefinite"/>
+   </rect>
+ </g>
+
+  <!-- CONNECT_LINKS -->
+  <text x="510" y="540" font-family="ui-monospace, monospace" font-size="11" fill="#94A3B8">github.com/moonlitecode  ·  linkedin.com/in/simmy-parmar-8232a4320  ·  Canva  ·  email</text>
+</svg>
